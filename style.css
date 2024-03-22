@@ -1,0 +1,144 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:'poppins', sans-serif;
+    box-sizing: border-box;
+}
+body{
+    background:#efefef;
+    min-height: 100vh;
+}
+/* starting of navigation bar */
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #111;
+    padding: 5px 5%;
+    height: 60px;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: #000;
+  }
+
+.logo{
+    width: 180px;
+}
+h1 {
+    color: #eee;
+}
+.name{
+    color: aliceblue;
+}
+.red{
+    color: rgb(134, 253, 159);
+}
+.name{
+    size: 150px;
+}
+.conte{
+    border: 1px solid #000;
+    float: right;
+}
+.navbar{
+    display: flex;
+}
+.navbar a{
+    font-size: 1.1em;
+    font-weight: 500px;
+    padding: 5px 0;
+    margin: 0px 20px;
+    transition: all .50s ease;
+    text-decoration: none;
+    color: whitesmoke;
+    transition: .4s;
+}
+.ctn{
+    padding: 3px 10px;
+    background: #fc036b;
+    border-radius: 30px;
+    color: whitesmoke;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    padding-right: 20px;
+}
+.navbar li a:hover{
+    background: #7ec480;
+    transition: .4s;
+}
+.navigation-left p{
+    font-size: 1.1em;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+p{
+    line-height: 2.3rem;
+    font-size: 20px;
+    text-align: justify;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+.content p{
+    line-height: 2.3rem;
+    font-size: 20px;
+    font-weight: 30px;
+    text-align: justify;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-top: 25px;
+}
+h3{
+    font-size: 30px;
+    padding-left: 30px;
+}
+  footer{
+background-color: #1111;
+position: sticky;
+top: 100%;
+}
+.footercontainer{
+    width: 100%;
+    padding: 70px 30px 20px;
+}
+
+.footerbottom{
+    background-color: #000;
+    padding: 20px;
+    text-align: center;
+}
+.footerbottom p{
+    color: #efefef;
+}
+.designer{
+    opacity: 0.7;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 400;
+    margin: 0px 5px ;
+}
+@media(max-width:700px){
+    .footerNav ul{
+        flex-direction: column;
+    }
+    .footerNav ul li{
+        width: 100%;
+        text-align: center;
+        margin: 10px;
+    }
+}
+
+/* for the action btn  */
+.action_btn{
+    background-color: rgb(247, 248, 249);
+    border-radius: 15px;
+    text-align: center;
+    font-size: 23px;
+    color: black;
+}
+.action_btn:hover{
+     background-color: black;
+     color:white;
+     transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+}

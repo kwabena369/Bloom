@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:'poppins', sans-serif;
+    box-sizing: border-box;
+}
+body{
+    background:rgb(110, 109, 109);
+    min-height: 100vh;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #111;
+    padding: 5px 5%;
+    height: 60px;
+}
+
+.logo{
+    width: 180px;
+}
+h1 {
+    color: #eee;
+}
+.name{
+    color: aliceblue;
+}
+.red{
+    color: rgb(134, 253, 159);
+}
+.name{
+    size: 150px;
+}
+.conte{
+    border: 1px solid #000;
+    float: right;
+}
+.navbar{
+    display: flex;
+}
+.ctn{
+    padding: 3px 10px;
+    background: #fc036b;
+    border-radius: 30px;
+    color: whitesmoke;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    padding-right: 20px;
+}
+.navbar a{
+    font-size: 1.1em;
+    font-weight: 500px;
+    padding: 5px 0;
+    margin: 0px 20px;
+    transition: all .50s ease;
+    text-decoration: none;
+    color: whitesmoke;
+}
+.navigation-left p{
+    font-size: 1.1em;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.container{
+    max-width: 1200px;
+    margin: auto;
+    background: #f2f2f2;
+    overflow: auto;
+}
+.gallery{
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 390px;
+}
+.gallery img{
+    width: 100%;
+    height: auto;
+    border-radius: 20px;
+}
+.desc{
+    padding: 15px;
+    text-align: center;
+}
+footer{
+    background-color: #111;
+    position: sticky;
+    top: 100%;  
+    }
+    .footercontainer{
+        width: 100%;
+        padding: 70px 30px 20px;
+    }
+    
+    .footerbottom{
+        background-color: #000;
+        padding: 20px;
+        text-align: center;
+    }
+    .footerbottom p{
+        color: #efefef;
+    }
+    .designer{
+        opacity: 0.7;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        font-weight: 400;
+        margin: 0px 5px ;
+    }
+    @media(max-width:700px){
+        .footerNav ul{
+            flex-direction: column;
+        }
+        .footerNav ul li{
+            width: 100%;
+            text-align: center;
+            margin: 10px;
+        }
+    }
