@@ -17,9 +17,6 @@ nav{
     padding: 5px 5%;
     height: 60px;
 }
-.navbar-light .navbar-nav .nav-link {
-    color: #000;
-  }
 
 .logo{
     width: 180px;
@@ -92,9 +89,11 @@ p{
 h3{
     font-size: 30px;
     padding-left: 30px;
+    
 }
-  footer{
-background-color: #1111;
+  
+footer{
+background-color: #111;
 position: sticky;
 top: 100%;
 }

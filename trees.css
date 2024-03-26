@@ -77,7 +77,6 @@ h1 {
 .gallery img{
     width: 100%;
     height: auto;
-    border-radius: 20px;
 }
 .desc{
     padding: 15px;
